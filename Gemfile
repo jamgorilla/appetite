@@ -38,3 +38,10 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'geocoder'
+
+gem 'steer', github: 'tmcdb/steer-rb'
+
+gem 'simple_form'
+
+

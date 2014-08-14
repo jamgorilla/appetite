@@ -8,6 +8,19 @@
 </head>
 <body>
 
+	<header>
+		<h1><%= link_to "Appetite", root_path %></h1>
+		<p>The best Pubs in the world</p>
+	</header>
+
+<% flash.each do |key, value| %>
+
+	<div class="<%= key %>">
+		<p><%= value %></p>
+	</div>
+<% end %>
+
+
 <%= yield %>
 
 </body>
